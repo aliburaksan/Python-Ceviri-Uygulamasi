@@ -11,7 +11,7 @@ from googletrans import Translator
 # Uygulama
 app = customtkinter.CTk()
 app.geometry("1065x410+400+300")
-app.title("Çeviri Programı")
+app.title("Çeviri")
 app.resizable(width=False, height=False)
 
 
@@ -21,7 +21,7 @@ customtkinter.set_default_color_theme("blue")
 
 
 # Uygulama Başlık
-title = customtkinter.CTkLabel(app, text="Çeviri Programı", font=customtkinter.CTkFont(family='Arial', size=20, weight='bold', slant='italic'))
+title = customtkinter.CTkLabel(app, text="Masaüstü Çeviri Uygulaması", font=customtkinter.CTkFont(family='Arial', size=18, weight='bold', slant='italic'))
 title.pack(padx=10, pady=10)
 
 
